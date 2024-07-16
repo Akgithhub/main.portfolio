@@ -38,11 +38,16 @@ body {
 /* CSS for screens smaller than or equal to 600px */
 /* @media screen and (max-width: 950px) {
 } */
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
   .experience {
     margin-top: 40vh;
   }
 }
+@media screen and (max-width: 1881px) {
+  .experience {
+    margin-top: 100vh;
+  }
+} */
 
 @media screen and (max-width: 730px) {
   .contact {
@@ -73,12 +78,12 @@ body {
     max-width: 80vw;
   }
 }
-::-webkit-scrollbar{
-  width:10px;
+::-webkit-scrollbar {
+  width: 10px;
   background-color: #000111;
 }
 
-::-webkit-scrollbar-thumb{
-  background-image: linear-gradient(#88AB8E,#000111);
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#88ab8e, #000111);
   border-radius: 10px;
 }
