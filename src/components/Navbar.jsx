@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   Drawer,
   DrawerBody,
@@ -60,36 +59,40 @@ function Navbar() {
                     <path d="M799.855 166.312c.023.007.043.018.084.059l57.69 57.69c.041.041.052.06.059.084a.118.118 0 0 1 0 .069c-.007.023-.018.042-.059.083L569.926 512l287.703 287.703c.041.04.052.06.059.083a.118.118 0 0 1 0 .07c-.007.022-.018.042-.059.083l-57.69 57.69c-.041.041-.06.052-.084.059a.118.118 0 0 1-.069 0c-.023-.007-.042-.018-.083-.059L512 569.926 224.297 857.629c-.04.041-.06.052-.083.059a.118.118 0 0 1-.07 0c-.022-.007-.042-.018-.083-.059l-57.69-57.69c-.041-.041-.052-.06-.059-.084a.118.118 0 0 1 0-.069c.007-.023.018-.042.059-.083L454.073 512 166.371 224.297c-.041-.04-.052-.06-.059-.083a.118.118 0 0 1 0-.07c.007-.022.018-.042.059-.083l57.69-57.69c.041-.041.06-.052.084-.059a.118.118 0 0 1 .069 0c.023.007.042.018.083.059L512 454.073l287.703-287.702c.04-.041.06-.052.083-.059a.118.118 0 0 1 .07 0Z"></path>
                   </svg>
                 </div>
-                <button onClick={onClose} className="hover:scale-110 transition-all">
+                <button
+                  onClick={onClose}
+                  className="hover:scale-110 transition-all"
+                >
                   <a href="#">Home</a>
                 </button>
-                {/* <button onClick={onClose}>
-                  <Link to={"/"}>Home</Link>
-                </button> */}
-                <button onClick={onClose} className="hover:scale-125 transition-all">
+
+                <button
+                  onClick={onClose}
+                  className="hover:scale-125 transition-all"
+                >
                   <a href="#myskills">My Skills</a>
                 </button>
-                {/* <button onClick={onClose}>
-                  <Link to={"/myskills"}>My Skills</Link>
-                </button> */}
-                <button onClick={onClose} className="hover:scale-125 transition-all">
+
+                <button
+                  onClick={onClose}
+                  className="hover:scale-125 transition-all"
+                >
                   <a href="#myexperience">My Experience</a>
                 </button>
-                {/* <button onClick={onClose}>
-                  <Link to={"/myexperience"}>My Experience</Link>
-                </button> */}
-                <button onClick={onClose} className="hover:scale-125 transition-all">
+
+                <button
+                  onClick={onClose}
+                  className="hover:scale-125 transition-all"
+                >
                   <a href="#myprojects">My Projects</a>
                 </button>
-                {/* <button onClick={onClose}>
-                  <Link to={"/myprojects"}>My Preojects</Link>
-                </button> */}
-                <button onClick={onClose} className="hover:scale-125 transition-all">
+
+                <button
+                  onClick={onClose}
+                  className="hover:scale-125 transition-all"
+                >
                   <a href="#contact">Contact</a>
                 </button>
-                {/* <button onClick={onClose}>
-                  <Link to={"/contact"}>Contact</Link>
-                </button> */}
               </div>
             </DrawerBody>
           </DrawerContent>
