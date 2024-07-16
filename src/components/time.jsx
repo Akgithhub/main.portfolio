@@ -94,13 +94,7 @@ const time = () => {
                 </Typography>
                 <Typography>
                   <div className="text-[1.1rem] hover:-translate-y-2 transition-all text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto lg:max-w-[30vw] lg:max-h-[30vh]">
-                    As a web devloper intren at Afame Technologies, I
-                    contributed to building responsive web applications using
-                    HTML,CSS JavaScript, and React.I assisted in backend
-                    integration with Node.js and express debugged and optimized
-                    code,and ensured cross-browser compatibility. I enchansed my
-                    Teamwork and communication skills while gaining valuable
-                    industry experiences.
+                    
                   </div>
                 </Typography>
               </TimelineContent>
@@ -128,16 +122,7 @@ const time = () => {
                 </Typography>
                 <Typography>
                   <div className="text-[1rem] hover:-translate-y-2 transition-all text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto sm:max-w-[70vw] lg:max-w-[40vw]">
-                    As a Frontend Developer Intern at DigiGlobe Solutions, I
-                    collaborated closely with senior developers to translate
-                    design concepts into responsive web applications using HTML,
-                    CSS, and JavaScript frameworks. During this internship, I
-                    gained valuable hands-on experience in frontend development
-                    practices, participated in code reviews, and assisted in
-                    optimizing website performance.Successfully delivered
-                    project milestones while adhering to best practices and
-                    contributing to a dynamic team environment focused on
-                    innovation and growth.
+                  
                   </div>
                 </Typography>
               </TimelineContent>

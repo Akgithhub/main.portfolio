@@ -84,19 +84,23 @@ function Home() {
               </div>
               <div className="text-[#dcdcdc] pt-8 pb-4 md:pb-8 max-w-xl mg:w-[90vw]">
                 <p className="leading-7 md:leading-8">
-                  I am a dedicated and enthusiastic student currently in my
+                  🎓 I am a dedicated and enthusiastic student currently in my
                   second year of BCA, specializing in Full Stack Web
                   Development. My journey into the world of technology began
                   with a fascination for the way websites and applications
                   seamlessly blend functionality with creativity.
                   <br />
                   <br />
-                  In my pursuit of mastery in Full Stack Web Development. On the
-                  front-end, proficient in HTML, CSS, and JavaScript, utilizing
-                  frameworks such as React.js and Vue.js. On the back-end,
-                  experience with Node.js, Express.js. Additionally, I am adept
-                  at working with databases, including SQL and NoSQL databases
-                  like MongoDB.
+                  In my pursuit of mastery in Full Stack Web Development, I have
+                  become proficient in front-end technologies such as HTML, CSS,
+                  and JavaScript, utilizing frameworks like React.js and Vue.js.
+                  On the back-end, I have experience with Node.js and
+                  Express.js. Additionally, I am adept at working with both SQL
+                  and NoSQL databases, including MongoDB. 🌐💻
+                  <br />
+                  <br />
+                  Explore my projects and let's connect to collaborate on
+                  exciting ventures! 🚀
                 </p>
               </div>
               <div className="flex gap-4 md:gap-8">

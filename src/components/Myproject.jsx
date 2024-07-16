@@ -69,7 +69,7 @@ function Myproject() {
         id="myprojects"
         className="projects text-white max-h-[100vh]] bg-[#000111] flex justify-center lg:justify-start lg:mt-40vh  lg:mb-20vh sm:mt-[30vh] "
       >
-        <div className="flex flex-col lg:flex-col md:flex-col gap-[6vh] ml-[15vw]">
+        <div className="flex flex-col lg:flex-col md:flex-col gap-[6vh] ">
           <div>
             {" "}
             <motion.h1 {...animations.h1}>

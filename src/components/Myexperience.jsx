@@ -53,102 +53,67 @@ function Myexperience() {
         <div className="w-full">
           <VerticalTimeline>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="2011 - present"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              // icon={<WorkIcon />}
+              contentStyle={{ background: "#191919", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  #191919" }}
+              date="June 2024"
+              iconStyle={{ background: "#88AB8E", color: "#fff" }}
             >
-              
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2010 - 2011"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
+              <h3 className="vertical-timeline-element-title text-[1.5rem] font-semibold">
+                Web Developer Intern
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle text-[2rem] font-semibold">
+                @ Afame Technologies
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online
-                Marketing
+                Built responsive web applications using HTML, CSS, JavaScript,
+                and React. 🌐 Assisted in backend integration with Node.js and
+                Express. 🔗 Debugged and optimized code, ensuring cross-browser
+                compatibility. 🐞 Enhanced teamwork and communication skills
+                while gaining valuable industry experience. 🤝
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2008 - 2010"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              // icon={<WorkIcon />}
+              contentStyle={{ background: "#191919", color: "#88AB8E" }}
+              contentArrowStyle={{ borderRight: "7px solid  #191919" }}
+              date="2022 - 2025"
+              iconStyle={{ background: "#88AB8E", color: "#fff" }}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Los Angeles, CA
+              {/* <h3 className="vertical-timeline-element-title">
+                M.S. Mathematics and Computing
+              </h3> */}
+              <h4 className="vertical-timeline-element-subtitle text-[2rem] font-semibold">
+                # Kurukshetra University
               </h4>
-              <p>User Experience, Visual Design</p>
+              <p>
+                I'm a passionate 🎓 third-year BCA student diving deep into Full
+                Stack Web Development. With skills spanning front-end to
+                back-end technologies, I create seamless digital experiences
+                that blend creativity with functionality. Explore my projects
+                and let's connect to collaborate on exciting ventures! 🚀💻
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              // icon={<WorkIcon />}
+              contentStyle={{ background: "#191919", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid  #191919" }}
+              date="July 2024"
+              iconStyle={{ background: "#88AB8E", color: "#fff" }}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
-              </h4>
-              <p>User Experience, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="April 2013"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              // icon={<SchoolIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Content Marketing for Web, Mobile and Social Media
+              <h3 className="vertical-timeline-element-title text-[1.5rem] font-semibold">
+                Frontend Developer Intern
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Online Course
+              <h4 className="vertical-timeline-element-subtitle text-[2rem] font-semibold">
+                @ DigiGlobe Solutions
               </h4>
-              <p>Strategy, Social Media</p>
+              <p>
+                Collaborated with senior developers to create responsive web
+                applications using HTML, CSS, and JavaScript frameworks,
+                including React.js and its libraries. 👨‍💻 Gained hands-on
+                experience in frontend development practices and participated in
+                code reviews. 🛠️ Assisted in optimizing website performance. 🚀
+                Delivered project milestones on time, contributing to a dynamic
+                and innovative team. 🎯
+              </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="November 2012"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              // icon={<SchoolIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Agile Development Scrum Master
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Certification
-              </h4>
-              <p>Creative Direction, User Experience, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="2002 - 2006"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              // icon={<SchoolIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Bachelor of Science in Interactive Digital Media Visual Imaging
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Bachelor Degree
-              </h4>
-              <p>Creative Direction, Visual Design</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-              // icon={<StarIcon />}
-            />
           </VerticalTimeline>
         </div>
       </div>
