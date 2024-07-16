@@ -8,7 +8,6 @@ function Contact() {
   const {
     register,
     handleSubmit,
-
     formState: { errors },
   } = useForm();
 
@@ -30,82 +29,74 @@ function Contact() {
 
   return (
     <>
-      <div
-        id="contact"
-        className="contact text-white bg-[#000111] min-h-screen w-full flex flex-col justify-center items-center py-16 "
-      >
+      <div id="contact" className="contact">
         <motion.h1 {...animations.h1}>
-          <div className="text-lg md:text-xl lg:text-2xl font-semibold mb-4 mt-[20vh]">
+          <div className="text-lg md:text-xl lg:text-2xl font-semibold flex justify-center items-center flex-col text-center p-[5vh] gap-8 text-white">
             <h1>My Contact</h1>
-          </div>
-
-          <div className="text-[3rem] font-bold mb-4">
-            <h1 className="flex gap-2">
+            <h1 className="head flex flex-row text-[3rem] gap-6 font-semibold">
               Contact <span className="text-[#88ab8e]">Me Here</span>
             </h1>
           </div>
-          <div>
-            <form
-              onSubmit={handleSubmit(handleSubmit1)}
-              className="flex flex-col justify-center items-center gap-6 text-black"
-            >
-              <input
-                className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your Name"
-                {...register("name", {
-                  required: "Please enter your name",
-                })}
-                aria-invalid={errors.name ? "true" : "false"}
-              />
-              {errors.name?.type === "required" && (
-                <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
-                  Name is required
-                </p>
-              )}
-              <input
-                className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your Email"
-                {...register("mail", {
-                  required: "Email Address is required",
-                  pattern: {
-                    value: /^[A-Z0-9._%+-]+@gmail\.com$/i,
-                    message: "Invalid email format or not a Gmail address",
-                  },
-                })}
-                aria-invalid={errors.mail ? "true" : "false"}
-              />
+          <form
+            onSubmit={handleSubmit(handleSubmit1)}
+            className="flex flex-col justify-center items-center gap-6 text-black"
+          >
+            <input
+              className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your Name"
+              {...register("name", {
+                required: "Please enter your name",
+              })}
+              aria-invalid={errors.name ? "true" : "false"}
+            />
+            {errors.name?.type === "required" && (
+              <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
+                Name is required
+              </p>
+            )}
+            <input
+              className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your Email"
+              {...register("mail", {
+                required: "Email Address is required",
+                pattern: {
+                  value: /^[A-Z0-9._%+-]+@gmail\.com$/i,
+                  message: "Invalid email format or not a Gmail address",
+                },
+              })}
+              aria-invalid={errors.mail ? "true" : "false"}
+            />
 
-              {errors.mail && (
-                <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
-                  {errors.mail.message}
-                </p>
-              )}
-              <input
-                className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
-                type="text"
-                id="message"
-                name="message"
-                placeholder="Enter your Message"
-                {...register("Message", { required: true })}
-              />
-              {errors.Message && (
-                <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
-                  This field is required
-                </p>
-              )}
-              <input
-                type="submit"
-                disabled={state.submitting}
-                className="text-white bg-[#88ab8e] border-2 border-white rounded-xl font-medium p-2 pl-3 pr-3 hover:scale-110 transition-all"
-              />
-            </form>
-          </div>
+            {errors.mail && (
+              <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
+                {errors.mail.message}
+              </p>
+            )}
+            <input
+              className="bg-[#191919] text-white font-medium border-2 border-white p-3 pr-16 rounded-full"
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Enter your Message"
+              {...register("Message", { required: true })}
+            />
+            {errors.Message && (
+              <p className="text-[#88ab8e] bg-[#191919] border-2 border-white rounded-xl font-medium p-2">
+                This field is required
+              </p>
+            )}
+            <input
+              type="submit"
+              disabled={state.submitting}
+              className="text-white bg-[#88ab8e] border-2 border-white rounded-xl font-medium p-2 pl-3 pr-3 hover:scale-110 transition-all"
+            />
+          </form>
           <div className="flex justify-center items-center pt-8 gap-10">
             <div className="hover:scale-125 transition-all">
               <a href="https://www.linkedin.com/in/web-devloper-amaan-khan">

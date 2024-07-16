@@ -5,12 +5,10 @@ import Myproject from "./components/Myproject";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
-
 function App() {
   return (
     <>
-      <div className="w-[90%] m-auto">
-      
+      <div className="w-[80%] m-auto">
         <Navbar></Navbar>
         <Home></Home>
         <Myskills></Myskills>
