@@ -80,7 +80,7 @@ function Myskills() {
         id="myskills"
         className="bg-[#000111] w-full flex flex-col gap-8 lg:flex-row justify-center items-center py-20 lg:p-[15vh] lg:gap-[7vw]"
       >
-        <div className="text-white">
+        <div className="cards text-white">
           <motion.h1 {...animations.h1}>
             {
               <>

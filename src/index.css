@@ -20,10 +20,6 @@ body {
   transition: transform 0.3s ease; /* Add transition for smooth effect */
 }
 
-.r-btn:hover {
-  transform: scale(1.1); /* Increase size on hover */
-  transition: transform 0.3s ease; /* Add transition for smooth effect */
-}
 
 .img-me:hover {
   transform: scale(1.1); /* Increase size on hover */
@@ -34,20 +30,6 @@ body {
   transform: scale(1.1); /* Increase size on hover */
   transition: transform 0.5s ease; /* Add transition for smooth effect */
 }
-
-/* CSS for screens smaller than or equal to 600px */
-/* @media screen and (max-width: 950px) {
-} */
-/* @media screen and (max-width: 650px) {
-  .experience {
-    margin-top: 40vh;
-  }
-}
-@media screen and (max-width: 1881px) {
-  .experience {
-    margin-top: 100vh;
-  }
-} */
 
 @media screen and (max-width: 730px) {
   .ex {
@@ -85,5 +67,18 @@ body {
     flex-direction: column;
     line-height: 5vh;
   }
-  
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.img-me {
+  animation: fadeIn 4s;
+}
+.cards {
+  animation: fadeIn 4s;
 }
