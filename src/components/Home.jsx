@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Typewriter from "typewriter-effect";
 import { animate, motion } from "framer-motion";
-import pic from "../assets/1.jpg";
+import me from "../assets/me.jpg";
 import { Tooltip } from "@chakra-ui/react";
 import { Tilt } from "react-tilt";
 
@@ -194,7 +194,7 @@ function Home() {
             <>
               <Tilt options={defaultOptions}>
                 <img
-                  src={pic}
+                  src={me}
                   alt="My Image"
                   className="img-me rounded-full h-auto md:h-[50vh] w-full md:w-auto md:pt-[5vh] object-cover"
                 />
