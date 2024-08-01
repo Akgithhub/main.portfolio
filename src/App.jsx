@@ -8,14 +8,16 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="w-[80%] m-auto">
-        <Navbar></Navbar>
-        <Home></Home>
-        <Myskills></Myskills>
-        <Myexperience></Myexperience>
-        <Myproject></Myproject>
-        <Contact></Contact>
-      </div>
+      <>
+        <div className="w-[80%] m-auto">
+          <Navbar></Navbar>
+          <Home></Home>
+          <Myskills></Myskills>
+          <Myexperience></Myexperience>
+          <Myproject></Myproject>
+          <Contact></Contact>
+        </div>
+      </>
     </>
   );
 }
