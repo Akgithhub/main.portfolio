@@ -77,7 +77,7 @@ function Myexperience() {
                 # Kurukshetra University
               </h4>
               <p>
-                I'm a passionate 🎓 third-year BCA student diving deep into Full
+                I'm a passionate 🎓 Final-year BCA student diving deep into Full
                 Stack Web Development. With skills spanning front-end to
                 back-end technologies, I create seamless digital experiences
                 that blend creativity with functionality. Explore my projects

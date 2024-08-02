@@ -85,7 +85,7 @@ function Home() {
               <div className="text-[#dcdcdc] pt-8 pb-4 md:pb-8 max-w-xl mg:w-[90vw]">
                 <p className="leading-7 md:leading-8">
                   🎓 I am a dedicated and enthusiastic student currently in my
-                  second year of BCA, specializing in Full Stack Web
+                  Final year of BCA, specializing in Full Stack Web
                   Development. My journey into the world of technology began
                   with a fascination for the way websites and applications
                   seamlessly blend functionality with creativity.

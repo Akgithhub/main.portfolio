@@ -106,7 +106,7 @@ function Myproject() {
                   <>
                     <h1 className="flex gap-10 text-[1.8rem] font-bold lg:flex-row flex-col">
                       Orca Ai: AI chat system Web Application{" "}
-                      <a href="hhttps://github.com/Akgithhub/Orca.Ai.git">
+                      <a href="https://github.com/Akgithhub/Orca.Ai.git">
                         {" "}
                         <svg
                           className="hover:scale-125 transition-all"
